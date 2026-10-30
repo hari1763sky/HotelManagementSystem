@@ -1,0 +1,13 @@
+.finance-role .ops-stat-grid,.finance-role .dashboard-grid{display:none}
+.auth-text-button{border:0;background:transparent;padding:0;color:#557a62;font:inherit;text-decoration:underline;text-underline-offset:2px}
+.auth-success{border:1px solid #cce6d5;background:#f0f8f2;color:#356b48;padding:10px 12px;border-radius:4px;font-size:10px;line-height:1.5}
+html[data-theme='dark'] .auth-success{background:#26382d;border-color:#3e6048;color:#b8ddc1}
+.input-wrap select{min-width:0;flex:1;height:100%;border:0;outline:0;background:transparent;color:#34443c;font-size:12px;padding:0 6px}
+.customer-room-grid article{overflow:hidden}
+.customer-room-photo{display:block;width:calc(100% + 36px);height:190px;object-fit:cover;margin:-18px -18px 17px;border-radius:4px 4px 0 0}
+html[data-theme='dark'] .input-wrap select{color:#e4ece7}
+@media(max-width:600px){.customer-room-photo{height:170px}}
+.staff-identity small,html[data-theme='dark'] .specialist-queue article p,html[data-theme='dark'] .audit-list p,html[data-theme='dark'] .audit-list time,html[data-theme='dark'] .customer-invoices span{color:#a4b1a8}
+.finance-role .metric-grid{grid-template-columns:repeat(auto-fit,minmax(210px,1fr))}
+@media(max-width:600px){.finance-role .metric-grid{grid-template-columns:1fr}}
+@media print{.sidebar,.topbar,.welcome-row,.dashboard-footer,.quick-ranges,.row-actions,.row-action-button,.theme-toggle,.notification-list button{display:none!important}.dashboard-shell,.dashboard-main,.dashboard-content{display:block!important;background:#fff!important;padding:0!important;margin:0!important}.panel,.metric-card,.finance-summary article{break-inside:avoid;border-color:#ccc!important;box-shadow:none!important}.finance-summary{grid-template-columns:repeat(3,1fr)!important}.table-scroll{overflow:visible!important}table{white-space:normal!important;font-size:9pt!important}td,th{height:auto!important;padding:6px!important;color:#111!important;border-color:#ccc!important}.panel-kicker,.dashboard-content,.panel-heading h2{color:#111!important}body{background:#fff!important}}
